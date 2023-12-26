@@ -46,7 +46,8 @@ export function logger() {
             prefix: _prefix,
             commit,
             on: _addListener,
-            LogType
+            LogType,
+            info
         };
     }
 
